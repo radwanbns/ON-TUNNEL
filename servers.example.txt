@@ -1,0 +1,6 @@
+# مثال لملف السيرفرات الذي تضعه على GitHub (raw).
+# كل سطر = رابط سيرفر واحد. الأسطر الفارغة تتجاهل. الاسم يؤخذ من ما بعد # (أو ps فـ vmess).
+# يمكن أيضاً أن يكون الملف كله مشفراً Base64.
+vless://UUID@example.com:443?type=ws&security=tls&path=%2F&host=example.com&sni=example.com#🇩🇪 Germany 1
+trojan://PASSWORD@example.org:443?security=tls&sni=example.org#🇫🇷 France 1
+# vmess://eyJhZGQiOiJleGFtcGxlLm5ldCIsInBvcnQiOiI0NDMiLCJwcyI6Ik5MIC0gMSIs...
